@@ -1,0 +1,65 @@
+.admin-message-container {
+    text-align: center;
+
+    .admin-message {
+        p {
+            font-size: 1.6rem;
+            color: #525252;
+        }
+    }
+}
+
+.message {
+    // position: relative;
+    // top: 9rem;
+    margin-left: 3rem;
+    width: calc(40vw - 6rem);
+    // max-height: 40vh;
+    // background-color: whitesmoke;
+
+    &-box {
+        margin-bottom: 2rem;
+        &--user {
+            position: relative;
+            display: inline-block;
+            top: .8rem;
+            margin-right: 1rem;
+            margin-top: .5rem;
+            color: #7a7a7a;
+            font-size: 1.6rem;
+        }
+
+        &--message {
+            display: inline-block;
+            // background-color: #EE6667;
+            border-radius: 1rem;
+            padding: 1rem 1.5rem;
+            max-width: 20vw;
+
+            p {
+                max-width: 20vw;
+            }
+        }
+
+
+    }
+
+    .sender {
+        text-align: right;
+
+        &--message {
+            color: white;
+            background-color: #EE6667;
+        }
+    }
+
+    .receiver {
+        text-align: left;
+
+        &--message {
+            color: black;
+            background-color: white;
+        }
+    }
+}
+

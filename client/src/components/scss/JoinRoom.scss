@@ -1,0 +1,99 @@
+.join-room {
+    position: absolute;
+    display: inline-block;
+    height: 100vh;
+}
+
+.join-room-container {
+    width: 60vw;
+
+    &--text {
+        position: absolute;
+        font-size: 4rem;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        // color: #B1191A;
+
+        color: #EC8585;
+    }
+
+    img {
+        width: 60vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+.join-room-form {
+    right: 0;
+    width: 40vw;
+    font-weight: 500;
+    // background-color: thistle;
+
+    &--title {
+        margin-top: 30rem;
+        margin-bottom: 4rem;
+        margin-left: 10rem;
+        font-size: 3.3rem;
+
+        .bold {
+            font-weight: bold;
+        }
+
+        p:first-child {
+            margin-bottom: 1rem;
+        }
+    }
+
+    &--form {
+        margin-left: 10rem;
+        
+        label {
+            display: block;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        input {
+            display: block;
+            padding: 1rem;
+            width: 20vw;
+            font-size: 1.8rem;
+            margin-bottom: 3rem;
+            border-radius: 5px;
+            border: 1px solid transparent;
+            background-color: #F3F3F3;
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                background-color: white;
+                box-shadow: 0 0 0 4px rgba(238,102, 103,0.2);
+                border: 1px solid transparent;
+            }
+
+            &:focus {
+                outline: none;
+                background-color: #FFF8F8;
+                border: 1px solid rgba(238,102, 103,0.6);
+                box-shadow: 0 0 0 4px rgba(238,102, 103,0.2);
+            }
+        }
+
+        .button {
+            button {
+                cursor: pointer;
+                padding: 1.2rem 4rem;
+                font-size: 1.8rem;
+                font-weight: 600;
+                color: white;
+                border-radius: 5px;
+                background-color: #4A3FE8;
+                border: 1px solid #170AD4;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}

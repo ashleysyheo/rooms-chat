@@ -1,0 +1,45 @@
+.input {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    bottom: 3rem;
+    width: calc(40vw - 6rem);
+    padding: 1.5rem;
+    margin-left: 3rem;
+    background: white;
+    border-radius: 1rem;
+
+    input {
+        padding: 1rem;
+        width: 29vw;
+        font-size: 1.8rem;
+        border-radius: 5px;
+        border: 1px solid transparent;
+        background-color: #F3F3F3;
+        transition: all .2s ease-in-out;
+
+        &:focus {
+            outline: none;
+            border: 1px solid rgba(238,102, 103,0.6);
+        }
+
+        &::placeholder {
+            color: #adadad;
+        }
+    }
+
+    button {
+        cursor: pointer;
+        background-color: #EE6667;
+        border-radius: 5px;
+        font-size: 1.8rem;
+        color: white;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border: 1px solid #F43334;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}

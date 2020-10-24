@@ -4,7 +4,7 @@
         url('./fonts/IBMPlexSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -13,7 +13,7 @@
         url('./fonts/IBMPlexSans.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -22,7 +22,7 @@
         url('./fonts/IBMPlexSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 @font-face {
@@ -31,7 +31,7 @@
         url('./fonts/IBMPlexSans-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
-    font-display: swap;
+    font-display: auto;
 }
 
 * {

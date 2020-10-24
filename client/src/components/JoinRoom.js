@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './scss/JoinRoom.scss';
-import rooms_landing from '../rooms_landing.png';
 
 const JoinRoom = () => {
     const [name, setName] = useState('');
@@ -16,7 +15,7 @@ const JoinRoom = () => {
                     with the world <br />
                     online!
                 </h2>
-                <img src={ rooms_landing } alt='Rooms' />
+                <img src='https://ashley-project.s3.ap-northeast-2.amazonaws.com/rooms/rooms_landing.png' alt='Rooms' />
             </div>
 
             <div className='join-room join-room-form'>
